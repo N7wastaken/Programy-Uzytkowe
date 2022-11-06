@@ -1,0 +1,51 @@
+
+\documentclass[a4paper]{article}
+\usepackage[left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\author{Arek Mulkityn}
+\usepackage{multirow}
+
+\begin{document}
+\begin{table}[h]
+\centering\caption{Przykładowy system decyzyjny($U,A,d$), modelujący problem diagnozy medycznej, której efektem jest decyzja o wykonaniu lub nie wykonaniu operacji wycięcia wyrostka robaczkowego,$ U =\{u_{1},u_{2},.....,u_{10}\}$,$ A=\alpha_{1},\alpha_{2}\}$, $d \in D=\{\teTAK,NIE\}$} 
+\begin{tabular}{|c|c c c|}
+\hline
+\hline
+
+Pacjent & Ból brzucha & Temperatura ciala & Operacja \\
+\hline
+u1 & Mocny & Wysoka & Tak\\
+u2 & Średni & Wysoka & Tak\\
+u3 & Mocny & Średnia & Tak\\
+u4 & Mocny & Niska & Tak\\
+u5 & Średni & Średnia & Tak\\ 
+u6 & Średni & Średnia & Nie\\
+u7 & Mały & Wysoka & Nie\\
+u8 & Mały & Niska & Nie\\
+u9 & Mocny & Niska & Nie\\
+u10 & Mały & Średnia & Nie\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering\caption{Zadanie 2}
+\begin{tabular}{|c|c|c|}
+\hline
+\hline
+cell1 & cell2 & cell3\\
+\hline
+\multirow{3}{4em}{Multiple row} & cell4 & cell5\\
+&cell6 & cell7\\
+&cell8 & cell9\\
+\hline
+cell10 & cell11 & cell12\\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
